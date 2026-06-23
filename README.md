@@ -61,11 +61,13 @@ Action	Value
 Starting Balance	$500
 Deposit	$100
 Resulting Balance	$600
+
 Test Case 2: Withdraw Funds
 Action	Value
 Starting Balance	$500
 Withdraw	$50
 Resulting Balance	$450
+
 Test Case 3: Insufficient Funds
 Action	Value
 Starting Balance	$500
@@ -74,7 +76,7 @@ Result	Transaction Denied
 
 Challenges and Lessons Learned
 
-One of the biggest challenges during development was designing the layout of the GUI. Initially, some components were not displaying correctly because multiple panels were assigned to the same region of the BorderLayout. Troubleshooting and correcting the layout helped reinforce how Swing containers and layouts work together.
+One of my favorite parts of this assignment was making my GUI unique and figuring out ways to make it a little different. While it's still pretty basic, I wanted it to be fun and interesting to interact with. One of the biggest challenges during development was designing the layout of the GUI. Initially, some components were not displaying correctly because multiple panels were assigned to the same region of the BorderLayout. Troubleshooting and correcting the layout helped reinforce how Swing containers and layouts work together.
 
 This project also provided valuable experience handling user input, validating data, and responding to button events through ActionListeners.
 
